@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.head {
+    color:indigo;
+}
+.landing {
+    background-color: white;
+    width: 100%;
+    padding: 0px 5%;
+}
+
+nav {
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 24px;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 50%;
+    height: 100%;
+    background-color: #acdfc7;
+    padding: 84px 248px 64px 64px;
+}
+
+.section-caption {
+    font-family: 'Dancing Script', cursive;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.section-para {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.section-group {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section-btn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    width: 126px;
+}
+
+.section-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: #d0e9e0;
+}
+
+.info-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 64px;
+    width: 100%;
+    gap: 64px;
+    padding: 32px 128px;
+}
+
+.info-lorem {
+    text-align: center;
+}
+
+.info-para {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    gap: 32px;
+}
+.main-para {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.box {
+width: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 8px;
+}
+.img-card {
+    background-color: #acdfc7;
+    display: flex;
+    padding: 64px;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width: 100%;
+}
+
+.box-img {
+    height: 100%;
+    width: 100%;
+}
+
+.box p {
+    text-align: center;
+}
